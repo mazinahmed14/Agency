@@ -1,0 +1,1150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+img{
+    width: 100%;   
+    
+}
+body
+{
+    font-family: 'Open Sans',arial;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+.foot
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    height: 450px;
+}
+.foot .text1
+{
+    padding-left: 35px;
+  float: left;
+  margin-top: 100px;
+  width: 33.333%;
+  
+}
+.foot .text1 h3
+{
+    color: white;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.foot .text1 p
+{
+    font-size: 14px;
+    line-height: 1.7;
+    color: #888;
+    padding-bottom: 10px;
+}
+.foot .text1 ul
+{
+    color: #888;
+    font-size: 14px;
+    line-height: 1.7;
+    list-style: none;
+}
+.foot .text1 li
+{
+    padding: 10px 0;
+}.foot .text1 i{
+    padding-right: 4px;
+}
+
+
+
+/*---------- section 1 ----------*/
+
+.home
+{
+height: 700px;
+background-image: url(../IMAGE/full-8-700x440.jpeg);
+background-size: cover;
+background-position: center;
+overflow: hidden;
+position: relative;
+z-index: 1;
+}
+.home .lay1
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 98, 255, 0.473);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+.home .texthome
+{
+    text-align: center;
+    margin-top: 240px;
+    color: white;
+}
+.home .texthome h1
+{
+    margin: 10px 0;
+    font-size: 76px;
+    font-weight: 500;
+}
+.home .texthome p
+{
+    font-size: 22px;
+    line-height: 1.8;
+}
+.home .texthome .btn
+{
+    margin: 30px;
+    border: 2px solid transparent;
+    padding: 15px 28px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 3px;
+}
+
+/*---------- section 2 ----------*/
+
+.tex 
+{    
+    margin-top: 60px;
+}
+.tex .text 
+{
+    text-align: center;
+    margin: 0 auto;
+}
+.tex .text p
+{
+    color: #606060;
+    font-size: 22px;
+    line-height: 1.8;
+}
+.tex .text h2
+{
+    font-size: 35px;
+    color: #303030;
+    font-weight: 400;
+    padding: 30px;
+    
+}
+
+/*---------- section 3 ----------*/
+
+.parent
+{
+    background-color: white;
+}
+.parent .son
+{
+    width: 80%;
+    margin: auto;
+    
+}
+.parent .child
+{
+    margin-top: 80px ;
+    width: 33.333%;
+    float: left;
+    padding: 0 15px;
+}
+.parent .child h5
+{
+    font-size: 20px;
+    color: #303030;
+    font-weight: 500;
+    padding-bottom: 5px;
+    display: inline-block;
+    padding-left: 5px;
+    
+}
+.parent .child p
+{
+    font-size: 17px;
+    color: #888;
+    line-height: 1.8;
+    padding-left: 40px;
+    
+}
+.parent .child i
+{
+    width: 35px;
+    margin: 15px 0;
+    font-size: 26px;
+    color: #686868;
+    
+}
+
+/*---------- section 4 ----------*/
+
+.h
+{  
+  background-color: white;
+  text-align: center;
+}
+.h h3
+{
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 80px;
+    color: #303030;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.h p
+{
+    font-size: 20px;
+    color: #888;
+    
+}
+.contan
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+.contan a
+{
+    margin: 1%;
+    text-decoration: none;
+    color: #777;
+    font-size: 18px;
+    
+
+}
+
+
+/*---------- section 5 ----------*/
+
+.items
+{
+    color: white;
+    padding: 50px 0;
+}
+.items .col
+{
+    float: left;
+    width: 33.333%;
+    padding: 15px;
+}
+.items .item 
+{
+    border: 2px solid rgb(183, 179, 179);
+    text-align: center;
+}
+.item .textitem
+{
+    padding: 15px;
+    line-height: 1.7;
+}
+.item .textitem h3
+{
+    color: #333;
+    font-weight: 400;
+    font-size: 20px;
+}
+.item .textitem p
+{
+    font-size: 15px;
+    color: #888;
+}
+.item .imgitem
+{
+    position: relative;
+    overflow: hidden;
+}
+.item .imgitem .overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.37);
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    z-index: 12;
+    transition: all 1s;
+}
+.item:hover .imgitem .overlay
+{
+    opacity: 1;
+}
+.item .imgitem img
+{
+    transition: all 1s;
+}
+.item:hover .imgitem img
+{
+    transform: scale(1.1);
+}
+.item .imgitem .overlay .btns
+{  
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(20px);
+    transition: all 1s;
+}
+.item:hover .imgitem .overlay .btns
+{
+    transform: translateY(0);
+}
+
+
+/*----------- section 6 -----------*/
+
+.hh
+{  
+  background-color: white;
+  text-align: center;
+}
+.hh h3
+{
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 50px;
+    color: #303030;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.hh p
+{
+    font-size: 20px;
+    color: #888;
+    
+}
+
+.info
+{
+    background-color: white;
+    padding-top: 50px;
+}
+.info .cap
+{
+    float: left;
+    width: 33.333%;
+    height: 400px;
+    padding: 15px;
+}
+.info .caption
+{
+    padding: 15px;
+    text-align: center;
+    color: #686868;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8;  
+    border-radius: 4px;
+    background-color: rgb(247, 247, 247);
+}
+.info .auther
+{
+    padding: 15px;
+    font-size: 17px;
+    color: #777;
+    line-height: 1.7;   
+}
+
+/*--------------- section 7 -----------*/
+
+.hhh
+{  
+  background-color: white;
+  text-align: center;
+}
+.hhh h3
+{
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 50px;
+    color: #303030;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.hhh p
+{
+    font-size: 20px;
+    color: #888;
+    
+}
+
+.pics
+{
+    color: white;
+    padding: 50px 0;
+}
+.pics .col2
+{
+    float: left;
+    width: 33.333%;
+    padding: 15px;
+}
+.pics .pic
+{
+    border: 2px solid rgb(183, 179, 179);
+}
+.pic .textpic
+{
+    padding: 15px;
+    line-height: 1.7;
+}
+.pic .textpic h3
+{
+    color: #333;
+    font-weight: 400;
+    font-size: 20px;
+}
+.pic .textpic h5
+{
+    color: #888;
+    font-size: 13px;
+    font-weight: 300;
+}
+.pic .textpic p
+{
+    font-size: 15px;
+    color: #606060;
+    font-weight: 300;
+}
+
+/*--------------- section 8 -----------*/
+
+.hhhh
+{  
+  background-color: white;
+  text-align: center;
+}
+.hhhh h3
+{
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 50px;
+    color: #303030;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.hhhh p
+{
+    font-size: 20px;
+    color: #888;
+    
+}
+.hhhh .btnn
+{
+    color: white;
+    margin: 30px;
+    border: 2px solid transparent;
+    padding: 20px 28px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #1976d2;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+.btnn:hover
+{
+    background-color: #606060;
+    color: white;
+}
+/*--------------- page 2 -----------*/
+
+/*--------------- section 1 -----------*/
+.bb
+{
+    background-color: #e6e5e5f9;
+    height: 100px;
+}
+.b h1
+{
+    font-size: 32px;
+    font-weight: 400;
+    color: #686868;
+    margin: 40px 0;
+    padding-top: 30px;
+    margin-left: 10%;
+}
+.dad
+{
+    padding-top: 80px;
+    background-color: white;
+    
+}
+.dad .mmimg 
+{
+    width: 50%;
+    float: left;
+}
+
+.dad .mmtext
+{
+    padding-left: 100px;
+   padding-top: 35px;
+    width: 50%;
+    float: left;
+}
+.dad .mmtext h2
+{
+    color: #303030;
+    font-weight: 500;
+    font-size: 35px;
+    padding-bottom: 10px;
+
+}
+.dad .mmtext p
+{
+    font-weight: 400;
+    color: #686868;
+    line-height: 1.8em;
+    padding: 10px 0;
+    font-size: 17px;
+}
+.dad .icons span{
+    font-size: 30px;
+    padding-right: 10px;
+    color: #1976d2;
+    padding-bottom: 15px;
+}
+
+/*--------------- section 2 -----------*/
+
+.zz
+{  
+  background-color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+.zz h3
+{
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 50px;
+    color: #303030;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.zz p
+{
+    font-size: 20px;
+    color: #888;
+    
+}
+.mo 
+{
+    background-color: white;
+}
+.mo .moo
+{
+    width: 80%;
+    margin: auto;
+    
+}
+.mo .salah
+{
+    margin-top: 80px ;
+    width: 33.333%;
+    float: left;
+    padding: 0 15px;
+}
+.mo .salah h5
+{
+    font-size: 23px;
+    color: #303030;
+    font-weight: 500;
+    padding-bottom: 20px;
+    
+   
+    
+}
+.mo .salah p
+{
+    font-size: 15px;
+    color: #888;
+    line-height: 1.6;
+   
+}
+
+/*--------------- section 3 -----------*/
+.ee
+{  
+  background-color: white;
+  text-align: center;
+}
+.ee h3
+{
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 80px;
+    color: #303030;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.ee p
+{
+    font-size: 20px;
+    color: #888;
+    
+}
+.gg
+{
+    color: white;
+    padding: 50px 0;
+}
+.gg .ggg
+{
+    float: left;
+    width: 24.7%;
+    padding: 15px;
+    margin-top: 20px;
+}
+.gg .gggg
+{
+    border: 2px solid rgb(183, 179, 179);
+    text-align: center;
+}
+.gggg .textgggg
+{
+    padding: 15px;
+    line-height: 1.7;
+}
+.gggg .textgggg h3
+{
+    color: #333;
+    font-weight: 400;
+    font-size: 20px;
+}
+.gggg .textgggg p
+{
+    font-size: 15px;
+    color: #888;
+}
+.gggg .imggggg
+{
+    position: relative;
+    overflow: hidden;
+}
+.gggg .imggggg .overlayg
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.37);
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    z-index: 12;
+    transition: all 1s;
+}
+.gggg:hover .imggggg .overlayg
+{
+    opacity: 1;
+}
+.gggg .imggggg img
+{
+    transition: all 1s;
+}
+.gggg:hover .imggggg img
+{
+    transform: scale(1.1);
+}
+.gggg .imggggg .overlayg .btnsg
+{  
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(20px);
+    transition: all 1s;
+}
+.gggg:hover .imggggg .overlayg .btnsg
+{
+    transform: translateY(0);
+}
+
+/*--------------- section 4 -----------*/
+
+.GTA
+{  
+  background-color: white;
+  text-align: center;
+  margin: 80px 0;
+}
+.GTA h3
+{
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 50px;
+    color: #303030;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.GTA p
+{
+    font-size: 20px;
+    color: #888;
+    
+}
+.GTA .gta
+{
+    color: white;
+    margin: 30px;
+    border: 2px solid transparent;
+    padding: 20px 28px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #1976d2;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+.gta:hover 
+{
+   background-color: #606060 ;
+    Color:white;
+}
+
+/*-------------- page3 : section 1 ----------*/
+
+.bb
+{
+    background-color: #e6e5e5f9;
+    height: 100px;
+}
+.b h1
+{
+    font-size: 32px;
+    font-weight: 400;
+    color: #686868;
+    margin: 40px 0;
+    padding-top: 30px;
+    margin-left: 10%;
+}
+.leo
+{
+    background-color: white;
+}
+.leo .leoo
+{
+    width: 80%;
+    margin: auto;
+    
+}
+.leo .leooo
+{
+    margin-top: 80px ;
+    width: 33.333%;
+    float: left;
+    padding: 0 15px;
+}
+.leo .leooo h5
+{
+    font-size: 23px;
+    color: #303030;
+    font-weight: 500;
+    padding-bottom: 20px;
+    
+   
+    
+}
+.leo .leooo p
+{
+    font-size: 15px;
+    color: #888;
+    line-height: 1.6;
+   
+}
+
+/*-------------- page3 : section 2 ----------*/
+
+.mes
+{
+    margin-top: 80px;
+    background-color: rgba(179, 174, 174, 0.251);
+    
+}
+.mes .messi 
+{
+    width: 45%;
+    float: left;
+    padding: 60px 0;
+}
+
+.mes .messii
+{
+    padding-left: 100px;
+   padding-top: 130px;
+    width: 45%;
+    float: left;
+}
+.mes .messii h2
+{
+    color: #303030;
+    font-weight: 500;
+    font-size: 35px;
+    padding-bottom: 10px;
+
+}
+.mes .messii p
+{
+    font-weight: 400;
+    color: #686868;
+    line-height: 1.8em;
+    padding: 10px 0;
+    font-size: 17px;
+}
+.messii .gtaa
+{
+    color: white;
+    margin: 30px 0;
+    border: 2px solid transparent;
+    padding: 11px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #1976d2;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+.gtaa:hover
+{
+    background-color: #606060 ;
+    Color:white;
+}
+
+/*-------------- page3 : section 3 ----------*/
+
+.ro
+{
+    margin-top: 80px;
+    background-color: white;
+}
+.ro .ron 
+{
+    width: 45%;
+    float: left;  
+}
+
+.ro .rona
+{
+    padding-left: 100px;
+   padding-top: 100px;
+    width: 45%;
+    float: left;
+}
+.ro .rona h2
+{
+    color: #303030;
+    font-weight: 500;
+    font-size: 35px;
+    padding-bottom: 10px;
+
+}
+.ro .rona p
+{
+    font-weight: 400;
+    color: #686868;
+    line-height: 1.8em;
+    padding: 10px 0;
+    font-size: 17px;
+}
+.rona .gtaa
+{
+    color: white;
+    margin: 30px 0;
+    border: 2px solid transparent;
+    padding: 11px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #1976d2;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+.gtaa:hover
+{
+    background-color: #606060 ;
+    Color:white;
+}
+
+/*-------------- page3 : section 4 ----------*/
+
+.ne
+{
+    margin-top: 80px;
+    background-color: rgba(179, 174, 174, 0.251);
+    
+}
+.ne .ney 
+{
+    width: 45%;
+    float: left;
+    padding: 60px 0;
+}
+
+.ne .neyy
+{
+    padding-left: 100px;
+   padding-top: 130px;
+    width: 45%;
+    float: left;
+}
+.ne .neyy h2
+{
+    color: #303030;
+    font-weight: 500;
+    font-size: 35px;
+    padding-bottom: 10px;
+
+}
+.ne .neyy p
+{
+    font-weight: 400;
+    color: #686868;
+    line-height: 1.8em;
+    padding: 10px 0;
+    font-size: 17px;
+}
+.neyy .gtaa
+{
+    color: white;
+    margin: 30px 0;
+    border: 2px solid transparent;
+    padding: 11px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #1976d2;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+.gtaa:hover
+{
+    background-color: #606060 ;
+    Color:white;
+}
+.PTA
+{  
+  background-color: white;
+  text-align: center;
+  margin: 80px 0;
+}
+.PTA h3
+{
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 50px;
+    color: #303030;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.PTA p
+{
+    font-size: 20px;
+    color: #888;
+    
+}
+.PTA .pta
+{
+    color: white;
+    margin: 30px;
+    border: 2px solid transparent;
+    padding: 20px 28px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #1976d2;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+.pta:hover 
+{
+   background-color: #606060 ;
+    Color:white;
+}
+
+/*-------------- page4 : section 1 ----------*/
+
+.kk
+{
+    background-color: #e6e5e5f9;
+    height: 100px;
+}
+.k h1
+{
+    font-size: 32px;
+    font-weight: 400;
+    color: #686868;
+    margin: 40px 0;
+    padding-top: 30px;
+    margin-left: 10%;
+}
+.su
+{
+    background-color: white;
+}
+.su .suu
+{
+    width: 80%;
+    margin: auto;
+    
+}
+.su .suuu
+{
+    margin-top: 80px ;
+    width: 24.7%;
+    float: left;
+    padding: 0 25px;
+    text-align: center;
+}
+.su .suuu h5
+{
+    font-size: 20px;
+    color: #303030;
+    font-weight: 500;
+    padding-bottom: 20px;
+    
+   
+    
+}
+.su .suuu p
+{
+    font-size: 15px;
+    color: #888;
+    line-height: 1.6;
+   
+}
+.su .suuu i
+{
+    font-size: 70px;
+    padding: 20px 0;
+    color: #1976d2;
+}
+
+/*-------------- page4 : section 2 ----------*/
+.si
+{
+    background-color: rgba(179, 174, 174, 0.251);
+    margin-top: 50px;
+}
+.si .sii
+{
+    width: 80%;
+    margin: auto;
+    
+}
+.si .siii
+{
+    margin-top: 80px ;
+    width: 33.333%;
+    float: left;
+    padding: 0 25px;
+    text-align: center;
+}
+.si .siii
+{
+    font-size: 17px;
+    color: #303030;
+    font-weight: 400;
+}
+.si .siii h5
+{
+    font-size: 60px;
+    color: #303030;
+    font-weight: 500;
+    padding-bottom: 5px; 
+    padding-top: 30px;   
+}
+.si .siii p
+{
+    font-size: 15px;
+    color: #888;
+    line-height: 1.6;
+    margin-bottom: 20px;   
+}
+.siii .gtaa
+{
+    color: white;
+    margin: 30px 0;
+    border: 2px solid transparent;
+    padding: 11px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #1976d2;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+.gtaa:hover
+{
+    background-color: #606060 ;
+    Color:white;
+}
+.siii li
+{
+    list-style: none;
+}
+.sh
+{  
+  
+  text-align: center;
+  padding-top: 40px;
+}
+.sh h3
+{
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 50px;
+    color: #303030;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.sh p
+{
+    font-size: 20px;
+    color: #888;
+    
+}
+
+/*-------------- page4 : section 3 ----------*/
+
+.GTAa
+{  
+  background-color: white;
+  text-align: center;
+  margin: 100px 0;
+}
+.GTAa h3
+{
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 50px;
+    color: #303030;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.GTAa p
+{
+    font-size: 20px;
+    color: #888;
+    
+}
+.GTAa .gta
+{
+    color: white;
+    margin: 30px;
+    border: 2px solid transparent;
+    padding: 20px 28px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #1976d2;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+.gta:hover 
+{
+   background-color: #606060 ;
+    Color:white;
+}
